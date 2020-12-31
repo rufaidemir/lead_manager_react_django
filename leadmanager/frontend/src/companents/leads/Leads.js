@@ -39,9 +39,11 @@ export class Leads extends Component {
     }
 }
 
-Leads.propTypes = {
-    leads: PropTypes.array.isRequired
-}
+// Leads.propTypes = {
+//     leads: PropTypes.array.isRequired,
+//     getleads: PropTypFes.func.isRequired,
+//     deletelead: PropTypes.func.isRequired
+// }
 
 const mapStateToProps  = state => ({
     leads: state.leads.leads
